@@ -103,3 +103,8 @@
 .td-chat-result span{text-align:right;font-size:12px;}
 .td-chat small{font-size:10px;color:#c9aca0;}
 @media(max-width:730px){.terra-devastada .td-sheet{padding:8px}.terra-devastada .td-head-main{grid-template-columns:85px 1fr 82px;gap:7px}.terra-devastada .td-portrait{height:110px}.terra-devastada .td-stamp{font-size:22px}.terra-devastada .td-stamp span{font-size:24px}.terra-devastada .td-identity .td-actor-name{font-size:15px}.terra-devastada .td-small-fields{grid-template-columns:1fr;gap:3px}.terra-devastada .td-small-fields input{height:18px}.terra-devastada .td-resource input{font-size:25px;height:29px}.terra-devastada .td-resource{min-height:50px}.terra-devastada .td-columns{grid-template-columns:1fr;gap:9px}.terra-devastada .td-dashboard{grid-template-columns:1fr 1fr}.terra-devastada .td-roll-bar button{font-size:10px;padding:8px}.terra-devastada .td-tabs button{font-size:9px;letter-spacing:0}}
+
+/* Gerador de sobreviventes */
+.td-generator p{line-height:1.5;font-size:13px;}
+.td-generator label{display:block;margin:12px 0;font-weight:700;}
+.td-generator select,.td-generator input:not([type=checkbox]){display:block;width:100%;margin-top:4px;padding:6px;}

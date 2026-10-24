@@ -52,7 +52,7 @@
       </div>
     </div>
     <div data-page="inventario" hidden>
-      <div class="td-paper"><div class="td-paper-heading"><h3>INVENTÁRIO DE SOBREVIVÊNCIA</h3><button type="button" data-action="createItem"><i class="fa-solid fa-plus"></i> ADICIONAR</button></div>
+      <div class="td-paper"><div class="td-paper-heading"><h3>INVENTÁRIO DE SOBREVIVÊNCIA</h3><button type="button" data-action="openItemsCompendium" title="Abrir os 45 itens"><i class="fa-solid fa-box-open"></i> COMPÊNDIO</button><button type="button" data-action="createItem"><i class="fa-solid fa-plus"></i> ADICIONAR</button></div>
         <p class="td-hint">Arraste equipamentos para a ficha ou adicione-os manualmente. Itens armados/equipados podem justificar Condições, a critério do Mestre.</p>
         {{#each inventory}}<div class="td-item-row" data-item-id="{{id}}"><img src="{{img}}" alt=""/><button type="button" class="td-item-open" data-action="openItem" data-item-id="{{id}}">{{name}}</button><span>{{categoria}}</span><span>× {{quantidade}}</span>{{#if equipado}}<em>EQUIPADO</em>{{/if}}<button type="button" data-action="removeItem" data-item-id="{{id}}" title="Remover item"><i class="fa-solid fa-trash"></i></button></div>{{else}}<p class="td-empty">Mochila vazia.</p>{{/each}}
       </div>
@@ -73,5 +73,5 @@
       </div>
     </div>
   </main>
-  <footer class="td-footer"><span>AMANHÃ É INCERTO</span><span>ACEPÇÃO / FOUNDRY VTT</span><span>EDIÇÃO DIGITAL v0.1.0</span></footer>
+  <footer class="td-footer"><span>AMANHÃ É INCERTO</span><span>ACEPÇÃO / FOUNDRY VTT</span><span>EDIÇÃO DIGITAL v0.2.0</span></footer>
 </section>

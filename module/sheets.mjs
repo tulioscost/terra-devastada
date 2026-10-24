@@ -25,6 +25,7 @@ export class TerraActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
       createItem:TerraActorSheet.createItem,
       removeItem:TerraActorSheet.removeItem,
       openItem:TerraActorSheet.openItem,
+      openItemsCompendium:TerraActorSheet.openItemsCompendium,
       changePortrait:TerraActorSheet.changePortrait
     }
   };
@@ -134,6 +135,12 @@ export class TerraActorSheet extends HandlebarsApplicationMixin(ActorSheetV2) {
     if(item && await DialogV2.confirm({content:`Remover ${item.name} do inventário?`,rejectClose:false}))await item.delete();
   }
   static async openItem(event,target){await this.actor.items.get(target.dataset.itemId)?.sheet.render({force:true});}
+
+  static async openItemsCompendium(){
+    const pack=game.packs.get("world.td-itens-45");
+    if(!pack){ui.notifications.warn("Instale os compêndios pelo Mestre primeiro.");return;}
+    pack.render(true);
+  }
 
   static async changePortrait(){
     if(!this.isEditable)return;

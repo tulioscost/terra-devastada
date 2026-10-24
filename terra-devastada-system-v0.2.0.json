@@ -1,0 +1,59 @@
+{
+  "id": "terra-devastada",
+  "title": "Terra Devastada — Acepção",
+  "description": "Adaptação não oficial e não comercial das mecânicas Acepção para Foundry VTT 14, com fichas, 45 itens originais, 15 personagens e gerador de atores. Compêndios de mundo instaláveis pelo Mestre.",
+  "version": "0.2.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Adaptação técnica independente"
+    }
+  ],
+  "esmodules": [
+    "module/main.mjs"
+  ],
+  "styles": [
+    "styles/terra-devastada.css"
+  ],
+  "documentTypes": {
+    "Actor": {
+      "protagonista": {
+        "label": "Protagonista"
+      },
+      "sobrevivente": {
+        "label": "Sobrevivente / NPC"
+      },
+      "zumbi": {
+        "label": "Zumbi / Ameaça"
+      }
+    },
+    "Item": {
+      "equipamento": {
+        "label": "Equipamento"
+      }
+    }
+  },
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "grid": {
+    "type": 1,
+    "distance": 1,
+    "units": "m"
+  },
+  "background": "systems/terra-devastada/assets/terra-logo.svg",
+  "url": "https://github.com/tulioscost/terra-devastada",
+  "manifest": "https://raw.githubusercontent.com/tulioscost/terra-devastada/main/system.json",
+  "download": "https://github.com/tulioscost/terra-devastada/releases/download/v0.2.0/terra-devastada-v0.2.0.zip",
+  "bugs": "https://github.com/tulioscost/terra-devastada/issues",
+  "changelog": "https://github.com/tulioscost/terra-devastada/releases",
+  "license": "LICENSE-NOTICE.txt"
+}

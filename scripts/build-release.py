@@ -11,7 +11,7 @@ assert manifest['id']=='terra-devastada'
 DIST=ROOT/'dist'
 DIST.mkdir(exist_ok=True)
 include=['system.json','LICENSE-NOTICE.txt']
-for dirname in ['module','templates','styles','assets','lang']:
+for dirname in ['module','templates','styles','assets','lang','data','macros']:
     include.extend(str(p.relative_to(ROOT)) for p in sorted((ROOT/dirname).rglob('*')) if p.is_file())
 filename=f'terra-devastada-v{version}.zip'
 with ZipFile(DIST/filename,'w',ZIP_DEFLATED,compresslevel=9) as z:

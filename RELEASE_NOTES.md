@@ -1,24 +1,29 @@
-# Terra Devastada — v0.1.1
+# Terra Devastada — v0.2.0
 
-**Foundry VTT 14 · Sistema Acepção · Pacote não oficial e não comercial.**
+**Foundry VTT 14 · Acepção · Expansão de Compêndios e Gerador**
 
-## Atualizações em relação à v0.1.0
+## Conteúdo novo
 
-- Estrutura de repositório GitHub pronta para publicação.
-- URLs de repositório, manifesto estável, rastreamento de problemas e download de Release no `system.json`.
-- Pipeline automático para validar, empacotar e publicar o ZIP de instalação como asset de uma tag.
-- Correção visual no chat: Golpe de Sorte só destaca como sucesso a face par escolhida previamente.
-- Testes automatizados para cálculos Acepção, integridade do manifesto e arquivo ZIP.
-- Documentação de instalação manual e via manifesto após publicação.
+- **45 equipamentos originais** em sete categorias (12 armas, 6 proteções, 7 medicamentos, 4 munições, 6 alimentos, 7 ferramentas e 3 recursos diversos), todos com imagem SVG individual, quantidade, descrição e estado de conservação.
+- **15 sobreviventes originais prontos**, com ícones individuais, 12 Características, 3 Condições, Trunfo, Drama, Citação, Conceito, histórico, Horror, Convicção e 3–4 objetos iniciais cada.
+- **Macro “Gerar Ator — Ficha Completa”**: escolha um arquétipo ou sorteie; personalize o nome, crie protagonista ou NPC; opcionalmente varie Características e Horror. Abre ficha automaticamente.
+- **Instalador do Mestre** na primeira entrada no mundo, criando três compêndios de mundo (itens, personagens e macro). Operação idempotente: reexecutar não duplica documentos e não sobrescreve registros alterados.
+- Na aba Inventário há um botão **COMPÊNDIO** que abre a coleção dos 45 itens.
+- Todos os arquivos são incluídos no ZIP do Foundry, prontos para hospedagem GitHub.
 
-## Funcionalidades preservadas
+## Instalação inicial do conteúdo
 
-- Ficha personalizada de Protagonista, Sobrevivente/NPC e Zumbi/Ameaça.
-- Características, Condições, Trunfos, Dramas, Horror, Convicção e equipamentos.
-- Rolagens Acepção com sucessos nos resultados pares, Surto de Sorte, Golpe de Sorte, iniciativa, reações e teste de Horror.
+Ao abrir o mundo como Mestre, confirme a janela “Instalar Compêndios”. Alternativamente, execute no console do Mestre:
 
-## Limitações
+```js
+await game.terraDevastada.instalarCompendios();
+```
 
-A integração **ainda não foi testada dentro do Foundry VTT**. Os testes incluídos verificam regras e estrutura do projeto, não substituem ensaio funcional na aplicação. O download por URL depende da existência do Release `v0.1.1` no GitHub.
+Depois, abra **Compêndios → Terra Devastada | Macros → Gerar Ator — Ficha Completa**, importe a macro e execute-a na barra de macros ou no diretório.
 
-O conteúdo editorial protegido do livro *Terra Devastada* não está incluído.
+## Compatibilidade e limitações
+
+- Requer Foundry VTT 14 e o sistema Terra Devastada v0.2.0.
+- Os três compêndios são **criados no mundo pelo instalador do Mestre**, não distribuídos como bancos LevelDB precompilados. Essa opção atende hospedagens que não permitem alterar bancos de dados do sistema.
+- O conteúdo é original e não reproduz os personagens, imagens ou textos protegidos do livro. Ícones usam silhuetas do Font Awesome Free (CC BY 4.0; créditos no LICENSE-NOTICE.txt).
+- Testes automatizados confirmam estrutura, contagens, modelos, referências de ícones, geração de dados e integridade do pacote. A execução integral em uma instalação real do Foundry ainda precisa de validação.

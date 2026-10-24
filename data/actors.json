@@ -1,0 +1,2247 @@
+[
+  {
+    "_id": "tda0001000000000",
+    "name": "Lívia Bastos",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/01-livia-bastos.svg",
+    "prototypeToken": {
+      "name": "Lívia Bastos",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/01-livia-bastos.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Toda vida que eu alcançar ainda importa.",
+      "conceito": "Enfermeira de emergência",
+      "caracteristicas": [
+        "Primeiros socorros em condições precárias",
+        "Mãos firmes",
+        "Sabe improvisar macas",
+        "Reconhece sinais de infecção",
+        "Calma perto de crianças",
+        "Enxerga detalhes clínicos",
+        "Fala com autoridade em crises",
+        "Nunca abandona pacientes",
+        "Privação de sono recorrente",
+        "Medo de hospitais vazios",
+        "Dificuldade em confiar",
+        "Corre mal com peso"
+      ],
+      "condicoes": [
+        {
+          "nome": "Exausta",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Carrega estojo médico",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Vigilante",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Estabilizou feridos durante um apagão prolongado."
+      ],
+      "dramas": [
+        "Não conseguiu resgatar um colega da ala isolada."
+      ],
+      "horror": 5,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Trabalhava no pronto atendimento de um município do interior. Quando os corredores foram evacuados, assumiu a triagem sem médicos. Desde então salva quem pode em abrigos improvisados.",
+      "notas": "Objetivo atual: Encontrar a irmã em um antigo posto de saúde.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq0101000000000",
+        "name": "Estojo de primeiros socorros",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/19-estojo-de-primeiros-socorros.svg",
+        "system": {
+          "categoria": "medicamento",
+          "quantidade": 1,
+          "descricao": "Conjunto pequeno para curativos básicos; não substitui atendimento médico.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Estojo incompleto",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0102000000000",
+        "name": "Rolo de bandagens",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/20-rolo-de-bandagens.svg",
+        "system": {
+          "categoria": "medicamento",
+          "quantidade": 3,
+          "descricao": "Tecido limpo para cobertura e fixação de curativos.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Lacrado",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0103000000000",
+        "name": "Frasco de antisséptico",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/21-frasco-de-antisseptico.svg",
+        "system": {
+          "categoria": "medicamento",
+          "quantidade": 1,
+          "descricao": "Solução para higienização conforme indicação do produto.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Meio frasco",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0104000000000",
+        "name": "Pacote de biscoitos",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/32-pacote-de-biscoitos.svg",
+        "system": {
+          "categoria": "alimento",
+          "quantidade": 2,
+          "descricao": "Alimento de consumo imediato, sensível a umidade e calor.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Embalagem fechada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Encontrar a irmã em um antigo posto de saúde."
+      }
+    }
+  },
+  {
+    "_id": "tda0002000000000",
+    "name": "Rafael Nogueira",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/02-rafael-nogueira.svg",
+    "prototypeToken": {
+      "name": "Rafael Nogueira",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/02-rafael-nogueira.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Se tem peça, dá para consertar.",
+      "conceito": "Mecânico de estrada",
+      "caracteristicas": [
+        "Diagnostica motores pelo som",
+        "Conserta geradores",
+        "Conhece atalhos rodoviários",
+        "Dirige em estradas ruins",
+        "Faz soldas improvisadas",
+        "Gosta de resolver problemas",
+        "Boa memória para ferramentas",
+        "Resiste ao frio",
+        "Pouca paciência com ordens",
+        "Visão ruim à distância",
+        "Imprudente ao dirigir",
+        "Terror de espaços confinados"
+      ],
+      "condicoes": [
+        {
+          "nome": "Mãos cortadas",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Carrega ferramentas",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Desconfiado",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Manteve um caminhão de evacuação funcionando por dois dias."
+      ],
+      "dramas": [
+        "Abandonou passageiros quando ficou sem combustível."
+      ],
+      "horror": 4,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Operava um guincho e conhecia cada posto das rodovias da região. Fugiu do primeiro cerco levando apenas uma caixa de ferramentas. Seu maior receio é encontrar pessoas que deixou na estrada.",
+      "notas": "Objetivo atual: Montar um veículo seguro para fugir da cidade.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq0201000000000",
+        "name": "Pé de cabra",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/02-pe-de-cabra.svg",
+        "system": {
+          "categoria": "arma",
+          "quantidade": 1,
+          "descricao": "Barra de aço adequada para forçar portas, remover tábuas e afastar ameaças.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Ponta oxidada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0202000000000",
+        "name": "Lanterna de mão",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/36-lanterna-de-mao.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Fonte portátil de iluminação dependente de pilhas ou bateria.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Pilhas fracas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0203000000000",
+        "name": "Alicate universal",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/41-alicate-universal.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Ferramenta manual para segurar, cortar e dobrar fios.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Cabo isolado gasto",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0204000000000",
+        "name": "Chave inglesa",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/42-chave-inglesa.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Ferramenta ajustável útil em reparos mecânicos simples.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Rosca funcional",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Montar um veículo seguro para fugir da cidade."
+      }
+    }
+  },
+  {
+    "_id": "tda0003000000000",
+    "name": "Joana Pires",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/03-joana-pires.svg",
+    "prototypeToken": {
+      "name": "Joana Pires",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/03-joana-pires.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Disciplina também salva vidas.",
+      "conceito": "Professora e líder comunitária",
+      "caracteristicas": [
+        "Sabe negociar conflitos",
+        "Organiza grupos grandes",
+        "Memória para nomes",
+        "Ensina procedimentos simples",
+        "Escuta antes de julgar",
+        "Firme ao impor limites",
+        "Boa leitura de mapas",
+        "Empatia com crianças",
+        "Tem dificuldade com armas",
+        "Teimosa sob pressão",
+        "Sente culpa facilmente",
+        "Condição física limitada"
+      ],
+      "condicoes": [
+        {
+          "nome": "Tensa",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Com mapa rodoviário",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Sono leve",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Coordenou uma evacuação escolar sem perdas."
+      ],
+      "dramas": [
+        "Perdeu o contato com os alunos que ficaram para trás."
+      ],
+      "horror": 3,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Era professora da rede pública e foi responsável por abrigar vizinhos na escola. Com o avanço da infecção, teve de abandonar o prédio. Mantém um caderno com o nome de cada pessoa desaparecida.",
+      "notas": "Objetivo atual: Reunir familiares separados pela evacuação.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq0301000000000",
+        "name": "Mapa rodoviário",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/43-mapa-rodoviario.svg",
+        "system": {
+          "categoria": "outro",
+          "quantidade": 1,
+          "descricao": "Mapa de papel com referências de estradas; informações podem estar desatualizadas.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Dobras rasgadas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0302000000000",
+        "name": "Pacote de biscoitos",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/32-pacote-de-biscoitos.svg",
+        "system": {
+          "categoria": "alimento",
+          "quantidade": 2,
+          "descricao": "Alimento de consumo imediato, sensível a umidade e calor.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Embalagem fechada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0303000000000",
+        "name": "Garrafa de água",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/33-garrafa-de-agua.svg",
+        "system": {
+          "categoria": "alimento",
+          "quantidade": 2,
+          "descricao": "Água potável armazenada em recipiente fechado; recurso prioritário.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "1,5 litro",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Reunir familiares separados pela evacuação."
+      }
+    }
+  },
+  {
+    "_id": "tda0004000000000",
+    "name": "Caio Valença",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/04-caio-valenca.svg",
+    "prototypeToken": {
+      "name": "Caio Valença",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/04-caio-valenca.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "O portão só abre quando eu decidir.",
+      "conceito": "Vigia patrimonial",
+      "caracteristicas": [
+        "Observador noturno",
+        "Conhece rotinas de vigilância",
+        "Bom com lanternas",
+        "Silencioso ao patrulhar",
+        "Percebe movimentação estranha",
+        "Sabe improvisar barricadas",
+        "Mantém a calma quando cercado",
+        "Faz vigílias longas",
+        "Não suporta ser contrariado",
+        "Desconfia de desconhecidos",
+        "Joelho esquerdo lesionado",
+        "Fala alto quando irritado"
+      ],
+      "condicoes": [
+        {
+          "nome": "Joelho dolorido",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Armado com pé de cabra",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "De guarda",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Segurou sozinho uma entrada até o abrigo evacuar."
+      ],
+      "dramas": [
+        "Impediu a entrada de uma família em fuga."
+      ],
+      "horror": 8,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Trabalhava em um condomínio fechado e aprendeu a avaliar riscos por hábito. Quando o sistema de segurança falhou, improvisou barreiras com portões e carros. Hoje tenta convencer a si mesmo de que suas decisões foram necessárias.",
+      "notas": "Objetivo atual: Defender um abrigo sem repetir erros antigos.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq0401000000000",
+        "name": "Pé de cabra",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/02-pe-de-cabra.svg",
+        "system": {
+          "categoria": "arma",
+          "quantidade": 1,
+          "descricao": "Barra de aço adequada para forçar portas, remover tábuas e afastar ameaças.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Ponta oxidada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0402000000000",
+        "name": "Capacete de segurança",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/14-capacete-de-seguranca.svg",
+        "system": {
+          "categoria": "protecao",
+          "quantidade": 1,
+          "descricao": "Proteção de cabeça para entulho e impactos; cobertura limitada.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Fivelas íntegras",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0403000000000",
+        "name": "Lanterna de mão",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/36-lanterna-de-mao.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Fonte portátil de iluminação dependente de pilhas ou bateria.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Pilhas fracas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Defender um abrigo sem repetir erros antigos."
+      }
+    }
+  },
+  {
+    "_id": "tda0005000000000",
+    "name": "Bruna Farias",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/05-bruna-farias.svg",
+    "prototypeToken": {
+      "name": "Bruna Farias",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/05-bruna-farias.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "A natureza sempre deixa um vestígio.",
+      "conceito": "Bióloga de campo",
+      "caracteristicas": [
+        "Reconhece plantas comestíveis",
+        "Sabe coletar água",
+        "Acampamento em mata fechada",
+        "Interpreta rastros",
+        "Orientação por relevo",
+        "Faz anotações meticulosas",
+        "Suporta trilhas longas",
+        "Identifica riscos ambientais",
+        "Fobia de sangue",
+        "Desajeitada com eletrônicos",
+        "Não suporta confinamento",
+        "Subestima pessoas violentas"
+      ],
+      "condicoes": [
+        {
+          "nome": "Suja de lama",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Desidratada",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Com filtro de água",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Conduziu pesquisadores para fora de área isolada."
+      ],
+      "dramas": [
+        "Viu seu mentor morrer durante uma expedição."
+      ],
+      "horror": 2,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Participava de uma pesquisa ambiental quando os rádios silenciaram. Sobreviveu semanas em uma reserva antes de retornar a uma cidade destruída. Seus registros de campo viraram um guia prático para quem encontra.",
+      "notas": "Objetivo atual: Descobrir uma passagem segura entre assentamentos.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq0501000000000",
+        "name": "Máscara respiratória",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/17-mascara-respiratoria.svg",
+        "system": {
+          "categoria": "protecao",
+          "quantidade": 1,
+          "descricao": "Reduz exposição a poeira e partículas, conforme o filtro e sua integridade.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Filtro parcial",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0502000000000",
+        "name": "Barra de cereal",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/35-barra-de-cereal.svg",
+        "system": {
+          "categoria": "alimento",
+          "quantidade": 3,
+          "descricao": "Porção compacta de energia rápida, de baixo volume de transporte.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Embalagem fechada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0503000000000",
+        "name": "Filtro portátil de água",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/45-filtro-portatil-de-agua.svg",
+        "system": {
+          "categoria": "outro",
+          "quantidade": 1,
+          "descricao": "Equipamento de filtragem para certas impurezas; não garante sozinho potabilidade.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Refil parcial",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0504000000000",
+        "name": "Corda de nylon",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/40-corda-de-nylon.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Corda útil para amarrações e transporte; avaliar desgaste antes de uso.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "10 metros",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Descobrir uma passagem segura entre assentamentos."
+      }
+    }
+  },
+  {
+    "_id": "tda0006000000000",
+    "name": "Davi Mesquita",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/06-davi-mesquita.svg",
+    "prototypeToken": {
+      "name": "Davi Mesquita",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/06-davi-mesquita.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Todos embarcam, ninguém fica para trás.",
+      "conceito": "Motorista de ônibus",
+      "caracteristicas": [
+        "Manobra veículos grandes",
+        "Memoriza itinerários",
+        "Conduz sob pressão",
+        "Boa orientação urbana",
+        "Sabe falar em público",
+        "Força para deslocar obstáculos",
+        "Mantém veículos abastecidos",
+        "Sabe trocar pneus",
+        "Audição prejudicada",
+        "Medo de túneis",
+        "Teimosia excessiva",
+        "Má pontaria"
+      ],
+      "condicoes": [
+        {
+          "nome": "Ombro dolorido",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Com chave inglesa",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Preocupado",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Transportou dezenas de pessoas para fora de uma zona cercada."
+      ],
+      "dramas": [
+        "Teve de fechar a porta antes de uma passageira embarcar."
+      ],
+      "horror": 6,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Passava os dias atravessando a capital em ônibus urbano. Transformou uma linha comum em rota de fuga, até o motor falhar. A lembrança dos passageiros ainda determina cada decisão sua.",
+      "notas": "Objetivo atual: Encontrar o ônibus abandonado e recuperar suprimentos.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq0601000000000",
+        "name": "Chave inglesa",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/42-chave-inglesa.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Ferramenta ajustável útil em reparos mecânicos simples.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Rosca funcional",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0602000000000",
+        "name": "Lanterna de mão",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/36-lanterna-de-mao.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Fonte portátil de iluminação dependente de pilhas ou bateria.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Pilhas fracas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0603000000000",
+        "name": "Pacote de biscoitos",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/32-pacote-de-biscoitos.svg",
+        "system": {
+          "categoria": "alimento",
+          "quantidade": 2,
+          "descricao": "Alimento de consumo imediato, sensível a umidade e calor.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Embalagem fechada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0604000000000",
+        "name": "Botas reforçadas",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/18-botas-reforcadas.svg",
+        "system": {
+          "categoria": "protecao",
+          "quantidade": 1,
+          "descricao": "Calçado de sola rígida para longas travessias e terreno irregular.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Solado gasto",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Encontrar o ônibus abandonado e recuperar suprimentos."
+      }
+    }
+  },
+  {
+    "_id": "tda0007000000000",
+    "name": "Marta Siqueira",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/07-marta-siqueira.svg",
+    "prototypeToken": {
+      "name": "Marta Siqueira",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/07-marta-siqueira.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Ninguém luta de barriga vazia.",
+      "conceito": "Cozinheira de abrigo",
+      "caracteristicas": [
+        "Cozinha para muitos",
+        "Planeja racionamento",
+        "Reconhece alimentos estragados",
+        "Improvisa utensílios",
+        "Media brigas no refeitório",
+        "Economiza combustível",
+        "Organização exemplar",
+        "Conhece plantas tempero",
+        "Baixa resistência física",
+        "Medo de ratos",
+        "Insegura em campo aberto",
+        "Guarda rancor"
+      ],
+      "condicoes": [
+        {
+          "nome": "Com fome",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Carrega provisões",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Cansada",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Alimentou um abrigo por dez dias com reservas mínimas."
+      ],
+      "dramas": [
+        "Serviu comida contaminada sem perceber a tempo."
+      ],
+      "horror": 4,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Administrava uma cozinha industrial quando acabou a distribuição de alimentos. Converteu o estoque restante em refeições comunitárias. Agora atravessa mercados abandonados em busca de mantimentos seguros.",
+      "notas": "Objetivo atual: Estabelecer uma horta protegida para a comunidade.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq0701000000000",
+        "name": "Feijão enlatado",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/30-feijao-enlatado.svg",
+        "system": {
+          "categoria": "alimento",
+          "quantidade": 2,
+          "descricao": "Porção de alimento enlatado com validade e integridade verificáveis.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Lata íntegra",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0702000000000",
+        "name": "Saco de arroz",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/31-saco-de-arroz.svg",
+        "system": {
+          "categoria": "alimento",
+          "quantidade": 1,
+          "descricao": "Alimento seco que precisa de água, combustível e utensílios para preparo.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "1 kg",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0703000000000",
+        "name": "Pacote de biscoitos",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/32-pacote-de-biscoitos.svg",
+        "system": {
+          "categoria": "alimento",
+          "quantidade": 2,
+          "descricao": "Alimento de consumo imediato, sensível a umidade e calor.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Embalagem fechada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0704000000000",
+        "name": "Garrafa de água",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/33-garrafa-de-agua.svg",
+        "system": {
+          "categoria": "alimento",
+          "quantidade": 2,
+          "descricao": "Água potável armazenada em recipiente fechado; recurso prioritário.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "1,5 litro",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Estabelecer uma horta protegida para a comunidade."
+      }
+    }
+  },
+  {
+    "_id": "tda0008000000000",
+    "name": "Henrique Teles",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/08-henrique-teles.svg",
+    "prototypeToken": {
+      "name": "Henrique Teles",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/08-henrique-teles.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Silêncio no rádio não significa fim.",
+      "conceito": "Técnico de telecomunicações",
+      "caracteristicas": [
+        "Repara rádios simples",
+        "Reconhece interferências",
+        "Monta antenas improvisadas",
+        "Noções de eletricidade",
+        "Planeja rotas de comunicação",
+        "Boa concentração",
+        "Decora frequências",
+        "Sabe negociar por rádio",
+        "Desastrado no combate",
+        "Pouca resistência à dor",
+        "Obcecado por sinais",
+        "Insônia persistente"
+      ],
+      "condicoes": [
+        {
+          "nome": "Sem dormir",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Com rádio portátil",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Nervoso",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Restabeleceu uma frequência entre dois abrigos."
+      ],
+      "dramas": [
+        "Ouviu pedidos de socorro e não teve como responder."
+      ],
+      "horror": 7,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Era instalador de equipamentos de telecomunicações. No apagão, levou componentes de uma repetidora até uma estação de serviço. Passa noites monitorando uma frequência que talvez pertença à família.",
+      "notas": "Objetivo atual: Descobrir a origem de uma transmissão misteriosa.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq0801000000000",
+        "name": "Rádio portátil",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/37-radio-portatil.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Receptor de transmissões próximas ou distantes conforme sinal e energia.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Antena reparada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0802000000000",
+        "name": "Lanterna de mão",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/36-lanterna-de-mao.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Fonte portátil de iluminação dependente de pilhas ou bateria.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Pilhas fracas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0803000000000",
+        "name": "Alicate universal",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/41-alicate-universal.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Ferramenta manual para segurar, cortar e dobrar fios.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Cabo isolado gasto",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Descobrir a origem de uma transmissão misteriosa."
+      }
+    }
+  },
+  {
+    "_id": "tda0009000000000",
+    "name": "Nina Albuquerque",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/09-nina-albuquerque.svg",
+    "prototypeToken": {
+      "name": "Nina Albuquerque",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/09-nina-albuquerque.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Toda saída começa num desenho.",
+      "conceito": "Estudante de arquitetura",
+      "caracteristicas": [
+        "Interpreta plantas de prédios",
+        "Desenha mapas rápidos",
+        "Calcula distâncias visualmente",
+        "Encontra acessos de manutenção",
+        "Escala estruturas baixas",
+        "Boa visão espacial",
+        "Observa sinais de colapso",
+        "Criativa com materiais",
+        "Pânico em multidões",
+        "Pouca experiência de campo",
+        "Alergia a poeira",
+        "Sente saudade de casa"
+      ],
+      "condicoes": [
+        {
+          "nome": "Tossindo",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Com mapa",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Apreensiva",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Planejou a passagem de um grupo por um edifício bloqueado."
+      ],
+      "dramas": [
+        "Ficou presa enquanto o grupo escapava sem ela."
+      ],
+      "horror": 3,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Fazia estágio num escritório de projetos. Escapou usando plantas de manutenção e passou a registrar saídas ocultas. Aprendeu que um mapa vale pouco se não houver pessoas para percorrê-lo.",
+      "notas": "Objetivo atual: Encontrar uma rota para o hospital regional.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq0901000000000",
+        "name": "Mapa rodoviário",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/43-mapa-rodoviario.svg",
+        "system": {
+          "categoria": "outro",
+          "quantidade": 1,
+          "descricao": "Mapa de papel com referências de estradas; informações podem estar desatualizadas.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Dobras rasgadas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0902000000000",
+        "name": "Lanterna de mão",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/36-lanterna-de-mao.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Fonte portátil de iluminação dependente de pilhas ou bateria.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Pilhas fracas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq0903000000000",
+        "name": "Isqueiro descartável",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/39-isqueiro-descartavel.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Fonte de chama breve, dependente de combustível.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Pouco gás",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Encontrar uma rota para o hospital regional."
+      }
+    }
+  },
+  {
+    "_id": "tda0010000000000",
+    "name": "Samuel Braga",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/10-samuel-braga.svg",
+    "prototypeToken": {
+      "name": "Samuel Braga",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/10-samuel-braga.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Terra fértil ainda existe.",
+      "conceito": "Agricultor",
+      "caracteristicas": [
+        "Maneja ferramentas rurais",
+        "Conhece ciclos de plantio",
+        "Sabe rastrear animais",
+        "Reconhece solo úmido",
+        "Improvisa cercas",
+        "Resiste a jornadas longas",
+        "Lida bem com cavalos",
+        "Bom com nós",
+        "Pouca familiaridade urbana",
+        "Desconfia de tecnologia",
+        "Sensível a fumaça",
+        "Ingenuidade com estranhos"
+      ],
+      "condicoes": [
+        {
+          "nome": "Fadiga",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Armado com machado",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Esperançoso",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Protegeu o último plantio de sua comunidade."
+      ],
+      "dramas": [
+        "Perdeu animais e familiares durante uma fuga noturna."
+      ],
+      "horror": 5,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Trabalhava em pequena propriedade longe da cidade. Aprendeu a manter plantações mesmo sem maquinário, mas foi forçado a sair após ataques repetidos. Mantém sementes guardadas como promessa de recomeço.",
+      "notas": "Objetivo atual: Encontrar terra arável e água limpa.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq1001000000000",
+        "name": "Machado de lenhador",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/03-machado-de-lenhador.svg",
+        "system": {
+          "categoria": "arma",
+          "quantidade": 1,
+          "descricao": "Ferramenta pesada de corte; seu tamanho dificulta o uso em corredores apertados.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Afiado",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1002000000000",
+        "name": "Corda de nylon",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/40-corda-de-nylon.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Corda útil para amarrações e transporte; avaliar desgaste antes de uso.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "10 metros",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1003000000000",
+        "name": "Saco de arroz",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/31-saco-de-arroz.svg",
+        "system": {
+          "categoria": "alimento",
+          "quantidade": 1,
+          "descricao": "Alimento seco que precisa de água, combustível e utensílios para preparo.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "1 kg",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1004000000000",
+        "name": "Filtro portátil de água",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/45-filtro-portatil-de-agua.svg",
+        "system": {
+          "categoria": "outro",
+          "quantidade": 1,
+          "descricao": "Equipamento de filtragem para certas impurezas; não garante sozinho potabilidade.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Refil parcial",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Encontrar terra arável e água limpa."
+      }
+    }
+  },
+  {
+    "_id": "tda0011000000000",
+    "name": "Patrícia Lemos",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/11-patricia-lemos.svg",
+    "prototypeToken": {
+      "name": "Patrícia Lemos",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/11-patricia-lemos.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Uma instrução clara evita o pânico.",
+      "conceito": "Agente de defesa civil",
+      "caracteristicas": [
+        "Organiza evacuações",
+        "Conhece protocolos de risco",
+        "Inspeciona estruturas",
+        "Domina comunicação de emergência",
+        "Avalia prioridades rapidamente",
+        "Mantém autocontrole",
+        "Sabe coordenar voluntários",
+        "Primeiros socorros básicos",
+        "Carrega decisões difíceis",
+        "Fala de forma ríspida",
+        "Lesão no punho",
+        "Medo de falhar outra vez"
+      ],
+      "condicoes": [
+        {
+          "nome": "Punho enfaixado",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Com capacete",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Alerta",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Orientou uma saída segura de área inundada."
+      ],
+      "dramas": [
+        "Assinou uma ordem de evacuação tardia."
+      ],
+      "horror": 6,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Era agente de defesa civil e sobreviveu à queda do centro de operações. Lidera grupos pequenos para não repetir o desastre que presenciou. Sua mochila ainda contém mapas de regiões que já não existem.",
+      "notas": "Objetivo atual: Criar uma rede de abrigos sinalizados.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq1101000000000",
+        "name": "Capacete de segurança",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/14-capacete-de-seguranca.svg",
+        "system": {
+          "categoria": "protecao",
+          "quantidade": 1,
+          "descricao": "Proteção de cabeça para entulho e impactos; cobertura limitada.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Fivelas íntegras",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1102000000000",
+        "name": "Estojo de primeiros socorros",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/19-estojo-de-primeiros-socorros.svg",
+        "system": {
+          "categoria": "medicamento",
+          "quantidade": 1,
+          "descricao": "Conjunto pequeno para curativos básicos; não substitui atendimento médico.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Estojo incompleto",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1103000000000",
+        "name": "Mapa rodoviário",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/43-mapa-rodoviario.svg",
+        "system": {
+          "categoria": "outro",
+          "quantidade": 1,
+          "descricao": "Mapa de papel com referências de estradas; informações podem estar desatualizadas.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Dobras rasgadas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1104000000000",
+        "name": "Rádio portátil",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/37-radio-portatil.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Receptor de transmissões próximas ou distantes conforme sinal e energia.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Antena reparada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Criar uma rede de abrigos sinalizados."
+      }
+    }
+  },
+  {
+    "_id": "tda0012000000000",
+    "name": "Igor Mota",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/12-igor-mota.svg",
+    "prototypeToken": {
+      "name": "Igor Mota",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/12-igor-mota.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Conheço o caminho que não aparece no mapa.",
+      "conceito": "Entregador de bicicleta",
+      "caracteristicas": [
+        "Pedala longas distâncias",
+        "Conhece becos e atalhos",
+        "Passa por lugares estreitos",
+        "Boa agilidade",
+        "Observa bloqueios",
+        "Rápido para fugir",
+        "Conserta bicicletas",
+        "Faz entregas discretas",
+        "Impulsivo diante do perigo",
+        "Não gosta de armas",
+        "Inquieto em silêncio",
+        "Insiste em agir sozinho"
+      ],
+      "condicoes": [
+        {
+          "nome": "Joelho ralado",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Com mochila",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Sem fôlego",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Levou remédios a um abrigo cercado por veículos abandonados."
+      ],
+      "dramas": [
+        "Perdeu um amigo durante uma entrega de resgate."
+      ],
+      "horror": 4,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Trabalhava com entregas e conhecia a cidade por trajetos alternativos. Faz contato entre pequenos grupos em troca de comida e peças. A velocidade virou sua forma de não pensar na perda recente.",
+      "notas": "Objetivo atual: Localizar uma pessoa desaparecida no centro.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq1201000000000",
+        "name": "Mochila de trilha",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/44-mochila-de-trilha.svg",
+        "system": {
+          "categoria": "outro",
+          "quantidade": 1,
+          "descricao": "Bolsa de transporte resistente, com compartimentos para manter materiais secos.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Uma alça remendada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1202000000000",
+        "name": "Lanterna de mão",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/36-lanterna-de-mao.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Fonte portátil de iluminação dependente de pilhas ou bateria.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Pilhas fracas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1203000000000",
+        "name": "Rolo de bandagens",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/20-rolo-de-bandagens.svg",
+        "system": {
+          "categoria": "medicamento",
+          "quantidade": 3,
+          "descricao": "Tecido limpo para cobertura e fixação de curativos.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Lacrado",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1204000000000",
+        "name": "Canivete multifunção",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/38-canivete-multifuncao.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Ferramentas pequenas reunidas em um corpo dobrável.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Articulações rígidas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Localizar uma pessoa desaparecida no centro."
+      }
+    }
+  },
+  {
+    "_id": "tda0013000000000",
+    "name": "Celina Rocha",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/13-celina-rocha.svg",
+    "prototypeToken": {
+      "name": "Celina Rocha",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/13-celina-rocha.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "O rótulo importa mais que a promessa.",
+      "conceito": "Farmacêutica",
+      "caracteristicas": [
+        "Confere dosagens com cuidado",
+        "Reconhece interações medicamentosas",
+        "Controla estoques",
+        "Lê caligrafia difícil",
+        "Faz registros confiáveis",
+        "Trabalha com recursos limitados",
+        "Atende pessoas assustadas",
+        "Identifica prazos de validade",
+        "Pavor de contaminação",
+        "Dificuldade para correr",
+        "Mente mal",
+        "Obstinada em situações incertas"
+      ],
+      "condicoes": [
+        {
+          "nome": "Máscara respiratória",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Cansada",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Hipersensível a odores",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Salvou uma equipe de intoxicação por erro de medicação."
+      ],
+      "dramas": [
+        "Viu pacientes morrerem sem suprimentos adequados."
+      ],
+      "horror": 6,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Administrava uma farmácia de bairro. Quando os hospitais fecharam, transformou o balcão em ponto de apoio. Guarda uma lista de medicamentos escassos, esperando que um dia volte a distribuí-los.",
+      "notas": "Objetivo atual: Encontrar estoque farmacêutico preservado.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq1301000000000",
+        "name": "Estojo de primeiros socorros",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/19-estojo-de-primeiros-socorros.svg",
+        "system": {
+          "categoria": "medicamento",
+          "quantidade": 1,
+          "descricao": "Conjunto pequeno para curativos básicos; não substitui atendimento médico.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Estojo incompleto",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1302000000000",
+        "name": "Antibióticos prescritos",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/23-antibioticos-prescritos.svg",
+        "system": {
+          "categoria": "medicamento",
+          "quantidade": 1,
+          "descricao": "Medicamento de uso condicionado a prescrição; conservação e validade importam.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Validade legível",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1303000000000",
+        "name": "Frasco de antisséptico",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/21-frasco-de-antisseptico.svg",
+        "system": {
+          "categoria": "medicamento",
+          "quantidade": 1,
+          "descricao": "Solução para higienização conforme indicação do produto.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Meio frasco",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1304000000000",
+        "name": "Máscara respiratória",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/17-mascara-respiratoria.svg",
+        "system": {
+          "categoria": "protecao",
+          "quantidade": 1,
+          "descricao": "Reduz exposição a poeira e partículas, conforme o filtro e sua integridade.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Filtro parcial",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Encontrar estoque farmacêutico preservado."
+      }
+    }
+  },
+  {
+    "_id": "tda0014000000000",
+    "name": "Alex Moura",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/14-alex-moura.svg",
+    "prototypeToken": {
+      "name": "Alex Moura",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/14-alex-moura.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Primeiro encontramos a saída.",
+      "conceito": "Bombeiro de resgate",
+      "caracteristicas": [
+        "Arromba acessos com técnica",
+        "Treinado em busca e resgate",
+        "Avalia propagação de incêndio",
+        "Suporta equipamento pesado",
+        "Boa resistência física",
+        "Escala com equipamento",
+        "Acostumado a trabalhar em dupla",
+        "Contém pessoas em pânico",
+        "Pesadelos de desabamentos",
+        "Pé direito lesionado",
+        "Pouca sutileza",
+        "Culpa por perdas"
+      ],
+      "condicoes": [
+        {
+          "nome": "Pé imobilizado",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Armado com machado",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Alerta ao fogo",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Resgatou moradores de um edifício sem energia."
+      ],
+      "dramas": [
+        "Saiu de uma ocorrência deixando um parceiro soterrado."
+      ],
+      "horror": 9,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Integrava uma equipe de resgate que atuou até acabar o combustível. Fuga após fuga, adaptou ferramentas para abrir passagens. Sua experiência o tornou líder involuntário de um grupo dividido.",
+      "notas": "Objetivo atual: Retornar ao quartel e verificar sobreviventes.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq1401000000000",
+        "name": "Machado de lenhador",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/03-machado-de-lenhador.svg",
+        "system": {
+          "categoria": "arma",
+          "quantidade": 1,
+          "descricao": "Ferramenta pesada de corte; seu tamanho dificulta o uso em corredores apertados.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Afiado",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1402000000000",
+        "name": "Capacete de segurança",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/14-capacete-de-seguranca.svg",
+        "system": {
+          "categoria": "protecao",
+          "quantidade": 1,
+          "descricao": "Proteção de cabeça para entulho e impactos; cobertura limitada.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Fivelas íntegras",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1403000000000",
+        "name": "Estojo de primeiros socorros",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/19-estojo-de-primeiros-socorros.svg",
+        "system": {
+          "categoria": "medicamento",
+          "quantidade": 1,
+          "descricao": "Conjunto pequeno para curativos básicos; não substitui atendimento médico.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Estojo incompleto",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1404000000000",
+        "name": "Isqueiro descartável",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/39-isqueiro-descartavel.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Fonte de chama breve, dependente de combustível.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Pouco gás",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Retornar ao quartel e verificar sobreviventes."
+      }
+    }
+  },
+  {
+    "_id": "tda0015000000000",
+    "name": "Yasmin Duarte",
+    "type": "protagonista",
+    "img": "systems/terra-devastada/assets/icons/actors/15-yasmin-duarte.svg",
+    "prototypeToken": {
+      "name": "Yasmin Duarte",
+      "texture": {
+        "src": "systems/terra-devastada/assets/icons/actors/15-yasmin-duarte.svg"
+      },
+      "actorLink": true
+    },
+    "system": {
+      "jogador": "",
+      "citacao": "Toda mentira deixa marcas.",
+      "conceito": "Jornalista investigativa",
+      "caracteristicas": [
+        "Consegue entrevistas difíceis",
+        "Observa contradições",
+        "Escreve registros claros",
+        "Conhece fontes locais",
+        "Fotografa com discrição",
+        "Pesquisa documentos",
+        "Convence pessoas a conversar",
+        "Reconstitui acontecimentos",
+        "Curiosidade imprudente",
+        "Baixa aptidão para brigas",
+        "Tem dificuldade em dormir",
+        "Desconfia de autoridades"
+      ],
+      "condicoes": [
+        {
+          "nome": "Assustada",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Com mochila",
+          "duracao": "indeterminada"
+        },
+        {
+          "nome": "Sem notícias da família",
+          "duracao": "indeterminada"
+        }
+      ],
+      "trunfos": [
+        "Documentou abusos de um grupo armado e escapou."
+      ],
+      "dramas": [
+        "Divulgou uma informação que expôs um abrigo."
+      ],
+      "horror": 7,
+      "conviccao": 30,
+      "bonusConviccaoCena": 0,
+      "historico": "Cobria notícias regionais quando começaram as quarentenas. Passou a guardar fitas e anotações fora das redes de comunicação. Quer descobrir o que ocorreu, mesmo sabendo que a verdade não alimenta ninguém.",
+      "notas": "Objetivo atual: Investigar o paradeiro de uma equipe de resgate.",
+      "observacoes": "Inventário inicial ilustrativo. A disponibilidade de recursos e o efeito de cada item são definidos na narrativa.",
+      "reacoes": 0,
+      "febreZ": false
+    },
+    "items": [
+      {
+        "_id": "teq1501000000000",
+        "name": "Mapa rodoviário",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/43-mapa-rodoviario.svg",
+        "system": {
+          "categoria": "outro",
+          "quantidade": 1,
+          "descricao": "Mapa de papel com referências de estradas; informações podem estar desatualizadas.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Dobras rasgadas",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1502000000000",
+        "name": "Rádio portátil",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/37-radio-portatil.svg",
+        "system": {
+          "categoria": "ferramenta",
+          "quantidade": 1,
+          "descricao": "Receptor de transmissões próximas ou distantes conforme sinal e energia.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Antena reparada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      },
+      {
+        "_id": "teq1503000000000",
+        "name": "Mochila de trilha",
+        "type": "equipamento",
+        "img": "systems/terra-devastada/assets/icons/items/44-mochila-de-trilha.svg",
+        "system": {
+          "categoria": "outro",
+          "quantidade": 1,
+          "descricao": "Bolsa de transporte resistente, com compartimentos para manter materiais secos.",
+          "municao": 0,
+          "capacidade": 0,
+          "equipado": false,
+          "condicao": "Uma alça remendada",
+          "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+        },
+        "flags": {
+          "terra-devastada": {
+            "seedVersion": "0.2.0",
+            "origin": "original"
+          }
+        }
+      }
+    ],
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original",
+        "objetivo": "Investigar o paradeiro de uma equipe de resgate."
+      }
+    }
+  }
+]

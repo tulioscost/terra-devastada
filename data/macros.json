@@ -1,0 +1,15 @@
+[
+  {
+    "_id": "tdMacroGeraAtor01",
+    "name": "Gerar Ator — Ficha Completa",
+    "type": "script",
+    "img": "systems/terra-devastada/assets/gerador-ator.svg",
+    "command": "await game.terraDevastada.gerarAtor();",
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  }
+]

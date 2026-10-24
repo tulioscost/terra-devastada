@@ -1,0 +1,992 @@
+[
+  {
+    "_id": "tdi0001000000000",
+    "name": "Martelo de carpinteiro",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/01-martelo-de-carpinteiro.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Ferramenta de impacto improvisada para abrir passagens e se defender a curta distância.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Cabo gasto",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0002000000000",
+    "name": "Pé de cabra",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/02-pe-de-cabra.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Barra de aço adequada para forçar portas, remover tábuas e afastar ameaças.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Ponta oxidada",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0003000000000",
+    "name": "Machado de lenhador",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/03-machado-de-lenhador.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Ferramenta pesada de corte; seu tamanho dificulta o uso em corredores apertados.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Afiado",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0004000000000",
+    "name": "Facão de mata",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/04-facao-de-mata.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Lâmina longa útil para abrir trilhas e improvisar proteção em conflitos próximos.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Bainha de couro",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0005000000000",
+    "name": "Faca de caça",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/05-faca-de-caca.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Lâmina compacta para tarefas de campo; alcance muito curto em confronto.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Lâmina íntegra",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0006000000000",
+    "name": "Taco de beisebol",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/06-taco-de-beisebol.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Objeto robusto usado em golpes contundentes, sem munição.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Marcas de uso",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0007000000000",
+    "name": "Cano de aço",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/07-cano-de-aco.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Tubo metálico retirado de construção abandonada; improvisado e pesado.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Oxidado",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0008000000000",
+    "name": "Lança improvisada",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/08-lanca-improvisada.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Haste longa com ponta presa por arame; manter distância é sua principal vantagem.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Ponta instável",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0009000000000",
+    "name": "Pistola 9 mm",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/09-pistola-9-mm.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Arma curta semiautomática; exige munição compatível, empunhadura e manutenção.",
+      "municao": 0,
+      "capacidade": 15,
+      "equipado": false,
+      "condicao": "Ferrolho funcional",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0010000000000",
+    "name": "Revólver .38",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/10-revolver-38.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Arma de tambor, com capacidade reduzida e recarga manual.",
+      "municao": 0,
+      "capacidade": 6,
+      "equipado": false,
+      "condicao": "Cilindro funcional",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0011000000000",
+    "name": "Espingarda calibre 12",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/11-espingarda-calibre-12.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Arma longa de curto alcance; tiros chamam a atenção e consomem cartuchos.",
+      "municao": 0,
+      "capacidade": 5,
+      "equipado": false,
+      "condicao": "Coronha arranhada",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0012000000000",
+    "name": "Carabina .22",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/12-carabina-22.svg",
+    "system": {
+      "categoria": "arma",
+      "quantidade": 1,
+      "descricao": "Arma longa leve, de uso dependente de cartuchos apropriados.",
+      "municao": 0,
+      "capacidade": 10,
+      "equipado": false,
+      "condicao": "Mira desalinhada",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0013000000000",
+    "name": "Colete balístico usado",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/13-colete-balistico-usado.svg",
+    "system": {
+      "categoria": "protecao",
+      "quantidade": 1,
+      "descricao": "Pode justificar uma Condição favorável contra certos impactos; não torna alguém invulnerável.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Placas desgastadas",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0014000000000",
+    "name": "Capacete de segurança",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/14-capacete-de-seguranca.svg",
+    "system": {
+      "categoria": "protecao",
+      "quantidade": 1,
+      "descricao": "Proteção de cabeça para entulho e impactos; cobertura limitada.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Fivelas íntegras",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0015000000000",
+    "name": "Luvas de couro",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/15-luvas-de-couro.svg",
+    "system": {
+      "categoria": "protecao",
+      "quantidade": 1,
+      "descricao": "Protegem as mãos contra atrito, lascas e algumas superfícies cortantes.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Couro áspero",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0016000000000",
+    "name": "Óculos de proteção",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/16-oculos-de-protecao.svg",
+    "system": {
+      "categoria": "protecao",
+      "quantidade": 1,
+      "descricao": "Reduzem a exposição dos olhos a poeira e respingos.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Lentes riscadas",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0017000000000",
+    "name": "Máscara respiratória",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/17-mascara-respiratoria.svg",
+    "system": {
+      "categoria": "protecao",
+      "quantidade": 1,
+      "descricao": "Reduz exposição a poeira e partículas, conforme o filtro e sua integridade.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Filtro parcial",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0018000000000",
+    "name": "Botas reforçadas",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/18-botas-reforcadas.svg",
+    "system": {
+      "categoria": "protecao",
+      "quantidade": 1,
+      "descricao": "Calçado de sola rígida para longas travessias e terreno irregular.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Solado gasto",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0019000000000",
+    "name": "Estojo de primeiros socorros",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/19-estojo-de-primeiros-socorros.svg",
+    "system": {
+      "categoria": "medicamento",
+      "quantidade": 1,
+      "descricao": "Conjunto pequeno para curativos básicos; não substitui atendimento médico.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Estojo incompleto",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0020000000000",
+    "name": "Rolo de bandagens",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/20-rolo-de-bandagens.svg",
+    "system": {
+      "categoria": "medicamento",
+      "quantidade": 3,
+      "descricao": "Tecido limpo para cobertura e fixação de curativos.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Lacrado",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0021000000000",
+    "name": "Frasco de antisséptico",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/21-frasco-de-antisseptico.svg",
+    "system": {
+      "categoria": "medicamento",
+      "quantidade": 1,
+      "descricao": "Solução para higienização conforme indicação do produto.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Meio frasco",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0022000000000",
+    "name": "Comprimidos analgésicos",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/22-comprimidos-analgesicos.svg",
+    "system": {
+      "categoria": "medicamento",
+      "quantidade": 1,
+      "descricao": "Analgésicos de uso comum, com indicação e contraindicações próprias.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Cartela parcial",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0023000000000",
+    "name": "Antibióticos prescritos",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/23-antibioticos-prescritos.svg",
+    "system": {
+      "categoria": "medicamento",
+      "quantidade": 1,
+      "descricao": "Medicamento de uso condicionado a prescrição; conservação e validade importam.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Validade legível",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0024000000000",
+    "name": "Bolsa de soro fisiológico",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/24-bolsa-de-soro-fisiologico.svg",
+    "system": {
+      "categoria": "medicamento",
+      "quantidade": 1,
+      "descricao": "Solução estéril, útil quando apropriada e mantida íntegra.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Lacre íntegro",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0025000000000",
+    "name": "Torniquete de emergência",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/25-torniquete-de-emergencia.svg",
+    "system": {
+      "categoria": "medicamento",
+      "quantidade": 1,
+      "descricao": "Dispositivo de uso emergencial; aplicação incorreta pode causar lesões graves.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Ajuste funcional",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0026000000000",
+    "name": "Munição 9 mm (caixa)",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/26-municao-9-mm-caixa.svg",
+    "system": {
+      "categoria": "municao",
+      "quantidade": 1,
+      "descricao": "Caixa de cartuchos 9 mm para armas compatíveis; quantidade ajustável.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "20 cartuchos",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0027000000000",
+    "name": "Munição .38 (caixa)",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/27-municao-38-caixa.svg",
+    "system": {
+      "categoria": "municao",
+      "quantidade": 1,
+      "descricao": "Cartuchos .38 para arma de calibre compatível; estoque escasso.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "12 cartuchos",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0028000000000",
+    "name": "Cartuchos calibre 12",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/28-cartuchos-calibre-12.svg",
+    "system": {
+      "categoria": "municao",
+      "quantidade": 1,
+      "descricao": "Cartuchos calibre 12, volumosos e de transporte menos discreto.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "8 cartuchos",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0029000000000",
+    "name": "Munição .22 (caixa)",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/29-municao-22-caixa.svg",
+    "system": {
+      "categoria": "municao",
+      "quantidade": 1,
+      "descricao": "Cartuchos .22 para arma de calibre correspondente.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "50 cartuchos",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0030000000000",
+    "name": "Feijão enlatado",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/30-feijao-enlatado.svg",
+    "system": {
+      "categoria": "alimento",
+      "quantidade": 2,
+      "descricao": "Porção de alimento enlatado com validade e integridade verificáveis.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Lata íntegra",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0031000000000",
+    "name": "Saco de arroz",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/31-saco-de-arroz.svg",
+    "system": {
+      "categoria": "alimento",
+      "quantidade": 1,
+      "descricao": "Alimento seco que precisa de água, combustível e utensílios para preparo.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "1 kg",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0032000000000",
+    "name": "Pacote de biscoitos",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/32-pacote-de-biscoitos.svg",
+    "system": {
+      "categoria": "alimento",
+      "quantidade": 2,
+      "descricao": "Alimento de consumo imediato, sensível a umidade e calor.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Embalagem fechada",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0033000000000",
+    "name": "Garrafa de água",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/33-garrafa-de-agua.svg",
+    "system": {
+      "categoria": "alimento",
+      "quantidade": 2,
+      "descricao": "Água potável armazenada em recipiente fechado; recurso prioritário.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "1,5 litro",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0034000000000",
+    "name": "Lata de conservas",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/34-lata-de-conservas.svg",
+    "system": {
+      "categoria": "alimento",
+      "quantidade": 2,
+      "descricao": "Alimento conservado em lata, pronto para consumo quando seguro.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Lata íntegra",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0035000000000",
+    "name": "Barra de cereal",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/35-barra-de-cereal.svg",
+    "system": {
+      "categoria": "alimento",
+      "quantidade": 3,
+      "descricao": "Porção compacta de energia rápida, de baixo volume de transporte.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Embalagem fechada",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0036000000000",
+    "name": "Lanterna de mão",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/36-lanterna-de-mao.svg",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "descricao": "Fonte portátil de iluminação dependente de pilhas ou bateria.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Pilhas fracas",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0037000000000",
+    "name": "Rádio portátil",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/37-radio-portatil.svg",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "descricao": "Receptor de transmissões próximas ou distantes conforme sinal e energia.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Antena reparada",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0038000000000",
+    "name": "Canivete multifunção",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/38-canivete-multifuncao.svg",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "descricao": "Ferramentas pequenas reunidas em um corpo dobrável.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Articulações rígidas",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0039000000000",
+    "name": "Isqueiro descartável",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/39-isqueiro-descartavel.svg",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "descricao": "Fonte de chama breve, dependente de combustível.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Pouco gás",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0040000000000",
+    "name": "Corda de nylon",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/40-corda-de-nylon.svg",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "descricao": "Corda útil para amarrações e transporte; avaliar desgaste antes de uso.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "10 metros",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0041000000000",
+    "name": "Alicate universal",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/41-alicate-universal.svg",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "descricao": "Ferramenta manual para segurar, cortar e dobrar fios.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Cabo isolado gasto",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0042000000000",
+    "name": "Chave inglesa",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/42-chave-inglesa.svg",
+    "system": {
+      "categoria": "ferramenta",
+      "quantidade": 1,
+      "descricao": "Ferramenta ajustável útil em reparos mecânicos simples.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Rosca funcional",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0043000000000",
+    "name": "Mapa rodoviário",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/43-mapa-rodoviario.svg",
+    "system": {
+      "categoria": "outro",
+      "quantidade": 1,
+      "descricao": "Mapa de papel com referências de estradas; informações podem estar desatualizadas.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Dobras rasgadas",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0044000000000",
+    "name": "Mochila de trilha",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/44-mochila-de-trilha.svg",
+    "system": {
+      "categoria": "outro",
+      "quantidade": 1,
+      "descricao": "Bolsa de transporte resistente, com compartimentos para manter materiais secos.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Uma alça remendada",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  },
+  {
+    "_id": "tdi0045000000000",
+    "name": "Filtro portátil de água",
+    "type": "equipamento",
+    "img": "systems/terra-devastada/assets/icons/items/45-filtro-portatil-de-agua.svg",
+    "system": {
+      "categoria": "outro",
+      "quantidade": 1,
+      "descricao": "Equipamento de filtragem para certas impurezas; não garante sozinho potabilidade.",
+      "municao": 0,
+      "capacidade": 0,
+      "equipado": false,
+      "condicao": "Refil parcial",
+      "notas": "Item narrativo: o uso como bônus/penalidade depende da relevância na cena e da decisão do Mestre."
+    },
+    "flags": {
+      "terra-devastada": {
+        "seedVersion": "0.2.0",
+        "origin": "original"
+      }
+    }
+  }
+]

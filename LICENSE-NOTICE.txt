@@ -1,6 +1,11 @@
-TERRA DEVASTADA — ACEPÇÃO | Adaptação não oficial v0.1.1
+TERRA DEVASTADA — ACEPÇÃO | Adaptação não oficial v0.2.0
 Uso não comercial. Atribuição: o sistema narrativo Acepção foi criado por John Bogéa.
 Obra-base: Terra Devastada (2011), cenário de John Bogéa e Fabrício Caxias.
 O livro-base declara a licença Creative Commons BY-NC-SA 3.0 Unported para o sistema Acepção.
 Elementos de cenário, imagens e textos editoriais têm direitos distintos e não integram o pacote.
 Este repositório não reivindica direitos sobre os nomes e mecânicas preexistentes.
+
+ÍCONES: silhuetas incorporam vetores Font Awesome Free (coleção de ícones
+Solid), licenciados sob CC BY 4.0 (https://fontawesome.com/license/free).
+Copyright Fonticons, Inc. Os fundos, descrições, nomes de personagens
+e composição dos ícones foram criados para esta adaptação.

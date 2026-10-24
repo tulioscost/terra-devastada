@@ -6,7 +6,7 @@ const root=resolve(import.meta.dirname,'..');
 const manifest=JSON.parse(readFileSync(resolve(root,'system.json'),'utf8'));
 test('manifesto Foundry válido e endereços consistentes',()=>{
   assert.equal(manifest.id,'terra-devastada');
-  assert.equal(manifest.version,'0.1.1');
+  assert.equal(manifest.version,'0.2.0');
   assert.equal(manifest.compatibility.minimum,'14');
   assert.ok(manifest.download.endsWith(`/v${manifest.version}/terra-devastada-v${manifest.version}.zip`));
   assert.ok(manifest.manifest.endsWith('/main/system.json'));
