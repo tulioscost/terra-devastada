@@ -1,0 +1,77 @@
+<section class="td-sheet">
+  <header class="td-head">
+    <div class="td-kicker"><span class="td-light"></span> ARQUIVO DE SOBREVIVÊNCIA <span class="td-rule">PROTOCOLO / ACEPÇÃO</span></div>
+    <div class="td-head-main">
+      <button type="button" class="td-portrait" data-action="changePortrait" title="Alterar retrato">
+        <img src="{{actor.img}}" alt="Retrato de {{actor.name}}" /><span class="td-photo-label">ALTERAR FOTO</span>
+      </button>
+      <div class="td-identity">
+        <div class="td-stamp">TERRA <span>DEVASTADA</span></div>
+        <label class="td-label">IDENTIFICAÇÃO / NOME</label>
+        <input class="td-actor-name" name="name" value="{{actor.name}}" placeholder="Nome do sobrevivente" {{#unless editable}}disabled{{/unless}} />
+        <div class="td-small-fields"><label>JOGADOR<input name="system.jogador" value="{{system.jogador}}" placeholder="Jogador" {{#unless editable}}disabled{{/unless}}/></label><label>CONCEITO<input name="system.conceito" value="{{system.conceito}}" placeholder="Quem você era?" {{#unless editable}}disabled{{/unless}}/></label></div>
+      </div>
+      <div class="td-resources">
+        <div class="td-resource horror"><span>HORROR</span><input type="number" min="0" name="system.horror" value="{{system.horror}}" {{#unless editable}}disabled{{/unless}} /><small>DEGENERAÇÃO</small></div>
+        <div class="td-resource conviction"><span>CONVICÇÃO</span><input type="number" min="0" name="system.conviccao" value="{{system.conviccao}}" {{#unless editable}}disabled{{/unless}} /><small>FÉ / ESPERANÇA</small></div>
+      </div>
+    </div>
+    <div class="td-quote"><span class="td-bigquote">“</span><input name="system.citacao" value="{{system.citacao}}" placeholder="Qual frase resume a filosofia de vida deste personagem?" {{#unless editable}}disabled{{/unless}} /><span class="td-bigquote">”</span></div>
+  </header>
+  <div class="td-roll-bar">
+    <button type="button" data-action="rollAction"><i class="fa-solid fa-dice-d6"></i> AÇÃO</button>
+    <button type="button" data-action="rollReaction"><i class="fa-solid fa-shield-halved"></i> REAÇÃO</button>
+    <button type="button" data-action="rollInitiative"><i class="fa-solid fa-bolt"></i> INICIATIVA</button>
+    <button type="button" data-action="rollHorror"><i class="fa-solid fa-eye"></i> TESTE DE HORROR</button>
+    <button type="button" data-action="resetScene" class="td-muted"><i class="fa-solid fa-rotate"></i> NOVA CENA</button>
+  </div>
+  {{#if febreAlerta}}<div class="td-alert"><i class="fa-solid fa-triangle-exclamation"></i> HORROR 14+: VERIFICAR FEBRE Z NO INÍCIO DE CADA EPISÓDIO (PÁG. 73).</div>{{/if}}
+  <nav class="td-tabs" aria-label="Seções da ficha">
+    <button type="button" data-tab-trigger="perfil" class="active">01 / PERFIL</button>
+    <button type="button" data-tab-trigger="inventario">02 / INVENTÁRIO</button>
+    <button type="button" data-tab-trigger="historico">03 / HISTÓRICO</button>
+    <button type="button" data-tab-trigger="mecanicas">04 / PAINEL</button>
+  </nav>
+  <main class="td-pages">
+    <div data-page="perfil">
+      <div class="td-columns">
+        <div class="td-paper">
+          <div class="td-paper-heading"><h3>CARACTERÍSTICAS</h3><button type="button" data-action="addTrait" data-field="caracteristicas" title="Adicionar Característica"><i class="fa-solid fa-plus"></i></button></div>
+          <p class="td-hint">{{tracosAtual}} de 12 inicialmente recomendadas · bônus ou penalidades conforme a cena</p>
+          {{#each caracteristicas}}<div class="td-line"><span class="td-bullet">✦</span><input type="text" data-array-field="caracteristicas" data-index="{{index}}" value="{{value}}" aria-label="Característica" /><button type="button" data-action="removeTrait" data-field="caracteristicas" data-index="{{index}}" title="Remover"><i class="fa-solid fa-xmark"></i></button></div>{{else}}<p class="td-empty">Clique em + para adicionar uma Característica.</p>{{/each}}
+        </div>
+        <div class="td-paper">
+          <div class="td-paper-heading"><h3>CONDIÇÕES</h3><button type="button" data-action="addTrait" data-field="condicoes" title="Adicionar Condição"><i class="fa-solid fa-plus"></i></button></div>
+          <p class="td-hint">Ferimentos, exaustão, armamento, proteção e estados transitórios</p>
+          {{#each condicoes}}<div class="td-line td-condition"><span class="td-bullet">✚</span><input type="text" data-array-field="condicoes" data-index="{{index}}" data-prop="nome" value="{{value}}" aria-label="Condição" /><select data-array-field="condicoes" data-index="{{index}}" data-prop="duracao" aria-label="Duração"><option value="curta" {{#if (eq duracao "curta")}}selected{{/if}}>Curta</option><option value="media" {{#if (eq duracao "media")}}selected{{/if}}>Média</option><option value="longa" {{#if (eq duracao "longa")}}selected{{/if}}>Longa</option><option value="indeterminada" {{#if (eq duracao "indeterminada")}}selected{{/if}}>Indef.</option></select><button type="button" data-action="removeTrait" data-field="condicoes" data-index="{{index}}" title="Remover"><i class="fa-solid fa-xmark"></i></button></div>{{else}}<p class="td-empty">Nenhuma Condição registrada.</p>{{/each}}
+        </div>
+      </div>
+      <div class="td-columns td-bottom-grid">
+        <div class="td-paper"><div class="td-paper-heading"><h3>TRUNFOS</h3><button type="button" data-action="addTrait" data-field="trunfos" title="Adicionar Trunfo"><i class="fa-solid fa-plus"></i></button></div><p class="td-hint">Conquistas que reforçam a Convicção</p>{{#each trunfos}}<div class="td-line"><span class="td-bullet">★</span><input data-array-field="trunfos" data-index="{{index}}" value="{{value}}" aria-label="Trunfo"/><button type="button" data-action="removeTrait" data-field="trunfos" data-index="{{index}}" title="Remover"><i class="fa-solid fa-xmark"></i></button></div>{{else}}<p class="td-empty">Nenhum Trunfo.</p>{{/each}}</div>
+        <div class="td-paper"><div class="td-paper-heading"><h3>DRAMAS</h3><button type="button" data-action="addTrait" data-field="dramas" title="Adicionar Drama"><i class="fa-solid fa-plus"></i></button></div><p class="td-hint">Marcas traumáticas de experiências anteriores</p>{{#each dramas}}<div class="td-line"><span class="td-bullet">☒</span><input data-array-field="dramas" data-index="{{index}}" value="{{value}}" aria-label="Drama"/><button type="button" data-action="removeTrait" data-field="dramas" data-index="{{index}}" title="Remover"><i class="fa-solid fa-xmark"></i></button></div>{{else}}<p class="td-empty">Nenhum Drama.</p>{{/each}}</div>
+      </div>
+    </div>
+    <div data-page="inventario" hidden>
+      <div class="td-paper"><div class="td-paper-heading"><h3>INVENTÁRIO DE SOBREVIVÊNCIA</h3><button type="button" data-action="createItem"><i class="fa-solid fa-plus"></i> ADICIONAR</button></div>
+        <p class="td-hint">Arraste equipamentos para a ficha ou adicione-os manualmente. Itens armados/equipados podem justificar Condições, a critério do Mestre.</p>
+        {{#each inventory}}<div class="td-item-row" data-item-id="{{id}}"><img src="{{img}}" alt=""/><button type="button" class="td-item-open" data-action="openItem" data-item-id="{{id}}">{{name}}</button><span>{{categoria}}</span><span>× {{quantidade}}</span>{{#if equipado}}<em>EQUIPADO</em>{{/if}}<button type="button" data-action="removeItem" data-item-id="{{id}}" title="Remover item"><i class="fa-solid fa-trash"></i></button></div>{{else}}<p class="td-empty">Mochila vazia.</p>{{/each}}
+      </div>
+      <div class="td-paper"><div class="td-paper-heading"><h3>OBSERVAÇÕES SOBRE RECURSOS</h3></div><textarea name="system.observacoes" rows="7" placeholder="Suprimentos, abrigos, rotas, contatos, recursos do grupo...">{{system.observacoes}}</textarea></div>
+    </div>
+    <div data-page="historico" hidden>
+      <div class="td-paper"><div class="td-paper-heading"><h3>HISTÓRICO DO PROTAGONISTA</h3></div><textarea name="system.historico" rows="12" placeholder="Quem era antes do Dia Z? O que perdeu? O que busca?">{{system.historico}}</textarea></div>
+      <div class="td-paper"><div class="td-paper-heading"><h3>ANOTAÇÕES</h3></div><textarea name="system.notas" rows="10" placeholder="Pistas, anotações pessoais, episódios, decisões importantes...">{{system.notas}}</textarea></div>
+    </div>
+    <div data-page="mecanicas" hidden>
+      <div class="td-paper"><div class="td-paper-heading"><h3>CONTROLE NARRATIVO</h3></div>
+        <div class="td-dashboard"><div><strong>{{system.horror}}</strong><span>HORROR ATUAL</span></div><div><strong>{{system.conviccao}}</strong><span>CONVICÇÃO ATUAL</span></div><div><strong>{{system.reacoes}}</strong><span>REAÇÕES NA CENA</span></div><div><strong>{{system.bonusConviccaoCena}} / 3</strong><span>SUCESSOS AUTOMÁTICOS NA CENA</span></div></div>
+        <div class="td-rule-buttons"><button type="button" data-action="initialConviction"><i class="fa-solid fa-calculator"></i> Calcular Convicção inicial</button><button type="button" data-action="resetScene"><i class="fa-solid fa-rotate"></i> Reiniciar controles de cena</button></div>
+      </div>
+      <div class="td-paper"><div class="td-paper-heading"><h3>REGRAS RÁPIDAS</h3></div>
+        <ul class="td-quick-rules"><li>Cada traço relevante favorável: +1d6; desfavorável: −1d6.</li><li>Faces pares (2, 4 e 6) são sucessos; cada 6 gera dado extra.</li><li>Sem dados: Golpe de Sorte, escolher 2, 4 ou 6 e acertar exatamente em 1d6.</li><li>Teste indireto simples: 1 sucesso; comum: 2; difícil: 3.</li><li>Teste direto: comparar sucessos de ação e reação; empate é resultado parcial.</li><li>Reações sucessivas na cena: penalidades cumulativas de −1d.</li><li>Convicção: custa Horror atual; concede até 3 sucessos automáticos por cena, limitados pelos Trunfos.</li><li>Falha ao assimilar Horror pode gerar Drama, Condição e aumento de Horror.</li><li>Horror 14+: lembrar-se do teste de Febre Z no início de cada episódio.</li></ul>
+        <p class="td-hint">Referências do livro: construção de protagonista (p. 42–50), resolução de conflitos (p. 61–73). A interpretação final cabe ao Mestre.</p>
+      </div>
+    </div>
+  </main>
+  <footer class="td-footer"><span>AMANHÃ É INCERTO</span><span>ACEPÇÃO / FOUNDRY VTT</span><span>EDIÇÃO DIGITAL v0.1.0</span></footer>
+</section>
