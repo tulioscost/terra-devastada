@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "terra-devastada-foundry",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "type": "module",
   "description": "Sistema independente não oficial de Terra Devastada para Foundry VTT 14",
   "scripts": {

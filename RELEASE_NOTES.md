@@ -1,29 +1,32 @@
-# Terra Devastada — v0.2.0
+# Terra Devastada v0.5.0 — Certidão Forense Responsiva
 
-**Foundry VTT 14 · Acepção · Expansão de Compêndios e Gerador**
+## Novidades
 
-## Conteúdo novo
+- **Terceira ficha selecionável:** `Certidão de Óbito — Arquivo Forense (responsiva)`.
+- Papel envelhecido, borda documental, rubricas, campos forenses, carimbos e disposição mais fiel à arte de referência.
+- Layout adaptativo para desktop, janela pequena e mobile usando container queries.
+- Campos forenses editáveis sem modificar as regras de Acepção: prontuário, apelido, identificação, procedência, circunstância de ocorrência, assinaturas, situação e estágio do Vírus Z.
+- Navegação no documento e ações de rolagem, retrato e equipamentos integradas à ficha.
+- Primeira ficha alternativa também recebeu ajustes de responsividade; formulários das fichas agora usam elementos HTML `form` para submissão padrão do Foundry.
+- **Ficha clássica preservada como padrão**. Nenhuma alteração em valores existentes de Características, Condições, Horror, Convicção, inventário ou personagens.
 
-- **45 equipamentos originais** em sete categorias (12 armas, 6 proteções, 7 medicamentos, 4 munições, 6 alimentos, 7 ferramentas e 3 recursos diversos), todos com imagem SVG individual, quantidade, descrição e estado de conservação.
-- **15 sobreviventes originais prontos**, com ícones individuais, 12 Características, 3 Condições, Trunfo, Drama, Citação, Conceito, histórico, Horror, Convicção e 3–4 objetos iniciais cada.
-- **Macro “Gerar Ator — Ficha Completa”**: escolha um arquétipo ou sorteie; personalize o nome, crie protagonista ou NPC; opcionalmente varie Características e Horror. Abre ficha automaticamente.
-- **Instalador do Mestre** na primeira entrada no mundo, criando três compêndios de mundo (itens, personagens e macro). Operação idempotente: reexecutar não duplica documentos e não sobrescreve registros alterados.
-- Na aba Inventário há um botão **COMPÊNDIO** que abre a coleção dos 45 itens.
-- Todos os arquivos são incluídos no ZIP do Foundry, prontos para hospedagem GitHub.
+## Recursos preservados
 
-## Instalação inicial do conteúdo
+- Dado customizado do Dice So Nice; Dice Calculator obrigatório.
+- Compêndios: 45 itens, 15 personagens, 30 ameaças e macro geradora.
 
-Ao abrir o mundo como Mestre, confirme a janela “Instalar Compêndios”. Alternativamente, execute no console do Mestre:
+## Instalação
 
-```js
-await game.terraDevastada.instalarCompendios();
-```
+1. Backup do mundo.
+2. Instalar e ativar Dice So Nice e Dice Calculator.
+3. Extrair `terra-devastada-v0.5.0.zip` no diretório `Data/systems/` ou aplicar o PATCH desde a v0.4.0.
+4. Reiniciar o Foundry.
+5. Abrir o ator → menu da ficha → Configurar ficha → `Certidão de Óbito — Arquivo Forense (responsiva)`.
 
-Depois, abra **Compêndios → Terra Devastada | Macros → Gerar Ator — Ficha Completa**, importe a macro e execute-a na barra de macros ou no diretório.
+## Nota de publicação
 
-## Compatibilidade e limitações
+O código e os ZIPs estão preparados para publicação no repositório `tulioscost/terra-devastada`. A conexão GitHub disponível à assistente tem somente permissão de leitura: a publicação remota depende do proprietário do repositório.
 
-- Requer Foundry VTT 14 e o sistema Terra Devastada v0.2.0.
-- Os três compêndios são **criados no mundo pelo instalador do Mestre**, não distribuídos como bancos LevelDB precompilados. Essa opção atende hospedagens que não permitem alterar bancos de dados do sistema.
-- O conteúdo é original e não reproduz os personagens, imagens ou textos protegidos do livro. Ícones usam silhuetas do Font Awesome Free (CC BY 4.0; créditos no LICENSE-NOTICE.txt).
-- Testes automatizados confirmam estrutura, contagens, modelos, referências de ícones, geração de dados e integridade do pacote. A execução integral em uma instalação real do Foundry ainda precisa de validação.
+## Validação
+
+Testes unitários/estáticos executados, além de inspeção responsiva em Chromium. Teste funcional no aplicativo Foundry ainda pendente.

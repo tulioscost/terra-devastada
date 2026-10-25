@@ -1,8 +1,8 @@
 {
   "id": "terra-devastada",
   "title": "Terra Devastada — Acepção",
-  "description": "Adaptação não oficial e não comercial das mecânicas Acepção para Foundry VTT 14, com fichas, 45 itens originais, 15 personagens e gerador de atores. Compêndios de mundo instaláveis pelo Mestre.",
-  "version": "0.2.0",
+  "description": "Sistema Acepção para Foundry 14: ficha clássica, Declaração de Óbito, Certidão de Óbito responsiva, D6 Dice So Nice, Dice Calculator, 45 itens, 15 personagens e 30 ameaças.",
+  "version": "0.5.0",
   "compatibility": {
     "minimum": "14",
     "verified": "14",
@@ -17,7 +17,8 @@
     "module/main.mjs"
   ],
   "styles": [
-    "styles/terra-devastada.css"
+    "styles/terra-devastada.css",
+    "styles/terra-certidao.css"
   ],
   "documentTypes": {
     "Actor": {
@@ -52,8 +53,26 @@
   "background": "systems/terra-devastada/assets/terra-logo.svg",
   "url": "https://github.com/tulioscost/terra-devastada",
   "manifest": "https://raw.githubusercontent.com/tulioscost/terra-devastada/main/system.json",
-  "download": "https://github.com/tulioscost/terra-devastada/releases/download/v0.2.0/terra-devastada-v0.2.0.zip",
+  "download": "https://github.com/tulioscost/terra-devastada/releases/download/v0.5.0/terra-devastada-v0.5.0.zip",
   "bugs": "https://github.com/tulioscost/terra-devastada/issues",
   "changelog": "https://github.com/tulioscost/terra-devastada/releases",
-  "license": "LICENSE-NOTICE.txt"
+  "license": "LICENSE-NOTICE.txt",
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {
+          "minimum": "6.0.0"
+        }
+      },
+      {
+        "id": "dice-calculator",
+        "type": "module",
+        "compatibility": {
+          "minimum": "4.0.0"
+        }
+      }
+    ]
+  }
 }

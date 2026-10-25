@@ -1,51 +1,55 @@
-# Terra Devastada — Acepção | Foundry VTT 14
+# Terra Devastada — Sistema Acepção para Foundry VTT 14
 
-**v0.2.0 · Sistema não oficial para uso não comercial · Repositório: https://github.com/tulioscost/terra-devastada**
+Adaptação técnica independente, não oficial e não comercial do RPG *Terra Devastada*. É necessário possuir o livro para consultar as regras completas. Não inclui o texto integral do livro.
 
-Sistema para mesas narrativas de sobrevivência e horror, preservando as estruturas de *Terra Devastada*: Características, Condições, Trunfos, Dramas, Horror, Convicção e rolagens d6 com faces pares como sucessos, Surto de Sorte e Golpe de Sorte.
+## Requisitos
 
-## Instalação
+- Foundry VTT 14;
+- [Dice So Nice](https://foundryvtt.com/packages/dice-so-nice/) (**obrigatório**);
+- [Dice Calculator / Dice Tray](https://foundryvtt.com/packages/dice-calculator) (**obrigatório**).
 
-1. Descompacte `terra-devastada-v0.2.0.zip` na pasta `Data/systems/`, deixando `Data/systems/terra-devastada/system.json`.
-2. Reinicie o **Foundry VTT 14** e abra um mundo com o sistema Terra Devastada.
-3. Entre como **Mestre**. Na primeira entrada aparece o convite **Instalar Compêndios**: confirme para criar as coleções.
-4. No diretório Compêndios, estarão **Terra Devastada | 45 Itens**, **Terra Devastada | 15 Personagens** e **Terra Devastada | Macros**.
-5. Importe a macro **Gerar Ator — Ficha Completa** para a barra de macros e execute-a; escolha o arquétipo (ou sorteio), nome, tipo e variação.
+## Fichas selecionáveis
 
-**Instalação manual dos compêndios:** caso feche o convite, como Mestre use o console (F12) e execute:
+1. **Ficha Terra Devastada**, a ficha clássica, continua como padrão.
+2. **Declaração de Óbito (alternativa)**, a primeira versão de papel forense.
+3. **Certidão de Óbito — Arquivo Forense (responsiva)**, nova na v0.5.0.
 
-```js
-await game.terraDevastada.instalarCompendios();
-```
+Para escolher, abra um Ator e use o controle nativo **Configurar ficha / Configure Sheet**. Escolha uma das três no campo **Esta ficha / This Sheet** e salve. O mesmo ator pode mudar de apresentação sem alterar seus traços, equipamentos ou recursos.
 
-Para gerar um ator diretamente do console: `await game.terraDevastada.gerarAtor();`.
+### Nova ficha responsiva
 
-### Sobre a criação dos compêndios
+- Documento corrido inspirado em certidões antigas, carimbos, arquivo de óbitos, foto e registro.
+- Navegação por âncoras (Identificação, Registro Clínico, Pertences e Anotações).
+- Formulário editável com dados de prontuário, identificação e contexto narrativo.
+- Características, Condições, Trunfos, Dramas, Horror e Convicção originais de Acepção.
+- Infecção e estágio de zumbificação como campos de acompanhamento, sem transformação automática.
+- Botões existentes de ação, reação, iniciativa, horror e nova cena; retrato e inventário editáveis.
+- Layout por **container queries**, que responde à largura da janela Foundry em vez da resolução do monitor.
 
-Os conteúdos estão pré-embarcados como `data/items.json`, `data/actors.json` e `data/macros.json` e o **instalador os converte em três compêndios reais do mundo** no primeiro acesso, via API Foundry. Não são arquivos LevelDB já compilados; o Mestre precisa confirmar a instalação na primeira execução. Repetir o comando acrescenta somente documentos ausentes, sem duplicar ou substituir personagens ou itens existentes. O conteúdo criado permanece armazenado no mundo.
+> **Atenção:** o modelo Acepção não utiliza atributos fixos Força/Agilidade nem pontos de vida. Esses valores do mockup conceitual não foram introduzidos na ficha funcional. Os novos campos forenses são **cosméticos/narrativos**, sem alteração das regras do jogo.
 
-## Conteúdo
+## Conteúdo mantido
 
-- **45 itens ilustrados**: 12 armas, 6 proteções, 7 medicamentos, 4 munições, 6 alimentos, 7 ferramentas, 3 outros. Cada registro tem imagem SVG exclusiva, descrição narrativa, quantidade, condição física e categoria.
-- **15 personagens prontos**: cada um possui retrato SVG exclusivo, conceito, Citação, doze Características, três Condições, um Trunfo, um Drama, histórico original, objetivo, Horror, 30 de Convicção e inventário inicial.
-- **Gerador completo**: sorteia ou escolhe entre 15 arquétipos originais; gera nome quando não informado, 12 Características, 3 Condições, Trunfo, Drama, histórico, retrato, inventário e valores de Horror/Convicção. A criação não modifica os modelos originais.
+- 45 itens com ícones;
+- 15 personagens prontos com ficha completa;
+- 30 ameaças (zumbis, antagonistas humanos e animais);
+- macro geradora de personagem;
+- dado temático d6 (2/4/6: sucesso; 1/3/5: falha) configurado pelo Dice So Nice.
 
-## Ficha e jogabilidade
+## Instalação manual
 
-Ficha responsiva com retrato personalizável, Perfil, Inventário, Histórico e Painel de recursos. No Inventário, o botão **COMPÊNDIO** abre os itens disponíveis. Ações, reações, iniciativa e teste de Horror possuem diálogos próprios. Ferimentos não são pontos de vida; são Condições que o Mestre interpreta conforme a narrativa. A atribuição de dados por Característica deve ser justificada durante a cena.
+1. Faça um backup do mundo.
+2. Instale e habilite os dois módulos obrigatórios.
+3. Extraia o `terra-devastada-v0.5.0.zip` em `FoundryVTT/Data/systems/`, preservando o diretório `terra-devastada/`.
+4. Reinicie o Foundry e abra o mundo.
+5. Escolha **Certidão de Óbito — Arquivo Forense (responsiva)** em **Configurar ficha**.
 
-## Integração GitHub
-
-Faça upload do conteúdo do ZIP de repositório **na raiz** de `tulioscost/terra-devastada` (não dentro de subpasta). Confirme que a CI `npm test` passou; então crie e publique a tag **`v0.2.0`**. O workflow `release.yml` gera e anexa automaticamente o ZIP instalável à Release. Para instalação por URL, após publicar a Release:
+### Instalação por manifesto (somente após publicar o Release)
 
 `https://raw.githubusercontent.com/tulioscost/terra-devastada/main/system.json`
 
-## Créditos, origem e limitações
+O Release `v0.5.0` precisa conter **exatamente** o asset `terra-devastada-v0.5.0.zip` para o link de download do manifesto funcionar.
 
-Adaptação técnica não oficial e não comercial. Acepção: John Bogéa. *Terra Devastada* (2011), cenário: John Bogéa e Fabrício Caxias. O livro menciona CC BY-NC-SA 3.0 Unported para o sistema narrativo; demais elementos editoriais têm direitos distintos. Os 15 personagens, nomes, históricos, descrições de itens e composições visuais incluídos aqui são material original, não cópias do livro. Silhuetas dos ícones: Font Awesome Free, CC BY 4.0 (Fonticons, Inc.); veja `LICENSE-NOTICE.txt`.
+## Validação
 
-**Validação:** testes automáticos cobrem dados, mecanismos e pacote. Ainda não houve ensaio integral em ambiente Foundry executado; caso a versão instalada use implementação divergente de diálogos/compêndios, ajuste será necessário.
-
-## Macro separada
-
-O arquivo `macros/gerar-ator.js` pode ser copiado manualmente para uma Macro de Script no Foundry. Sua função também está pré-configurada no compêndio **Terra Devastada | Macros**.
+Os testes automatizados cobrem os mecanismos de Acepção, conteúdos, dependências, estrutura de arquivos, manifesto e fichas. Os testes de layout também inspecionam três larguras em navegador Chromium. **Não substituem a validação manual em uma instância real do Foundry VTT 14**.
